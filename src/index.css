@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", sans-serif;
+  color: #e4e5ea;
+}
+
+label {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.red-ball {
+  background: radial-gradient(
+    64% 64% at 27.25% 26.5%,
+    rgba(255, 208, 208, 0.536) 0%,
+    rgba(212, 93, 93, 0.264) 59.67%,
+    rgba(167, 49, 49, 0.248) 78.59%,
+    rgba(130, 25, 25, 0.248) 100%
+  );
+  box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+}
+
+.purple-ball {
+  background: radial-gradient(
+    64% 64% at 27.25% 26.5%,
+    rgba(236, 208, 255, 0.64) 0%,
+    rgba(161, 93, 207, 0.24) 59.67%,
+    rgba(118, 49, 164, 0.208) 78.59%,
+    rgba(86, 24, 128, 0.232) 100%
+  );
+  box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+}
+
+.red-small-ball {
+  background: radial-gradient(
+    64% 64% at 27.25% 26.5%,
+    rgba(255, 208, 208, 0.48) 0%,
+    rgba(212, 93, 93, 0.248) 59.67%,
+    rgba(167, 49, 49, 0.264) 78.59%,
+    rgba(130, 25, 25, 0.232) 100%
+  );
+  box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+}
+
+.purple-ball-mobile {
+  background: radial-gradient(
+    64% 64% at 27.25% 26.5%,
+    rgba(236, 208, 255, 0.64) 0%,
+    rgba(161, 93, 207, 0.24) 59.67%,
+    rgba(118, 49, 164, 0.208) 78.59%,
+    rgba(86, 24, 128, 0.232) 100%
+  );
+  box-shadow: 3px 6px 27px -10px #b176d940;
+}
+
+.red-ball-mobile {
+  background: radial-gradient(
+    64% 64% at 27.25% 26.5%,
+    rgba(255, 208, 208, 0.536) 0%,
+    rgba(212, 93, 93, 0.264) 59.67%,
+    rgba(167, 49, 49, 0.248) 78.59%,
+    rgba(130, 25, 25, 0.248) 100%
+  );
+  box-shadow: 3px 6px 27px -10px #df7d7d40;
+}
+
+.glass {
+  background: radial-gradient(
+    238.53% 189.02% at 3.2% 3.49%,
+    rgba(255, 246, 233, 0.1) 0%,
+    rgba(26, 29, 35, 0.1) 26.62%,
+    rgba(26, 29, 35, 0.1) 52.1%,
+    rgba(26, 29, 35, 0.01) 70.17%,
+    rgba(26, 29, 35, 0) 100%
+  );
+}
+
+@layer components {
+  .gradient {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-[#FCB045] to-[#FF3F78];
+  }
+  .gradient2 {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-[#FCB045] to-[#FD1D1D];
+  }
+  .bgGradient2 {
+    @apply bg-gradient-to-r from-[#FCB045] to-[#FD1D1D];
+  }
+}
