@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react";
 const Navbar = () => {
   return (
     <nav>
-      <div className="hidden lg:flex justify-between">
+      <div className="hidden lg:flex xl:flex-wrap 2xl:flex-nowrap xl:gap-6 2xl:gap-0 justify-between">
         <div className="flex gap-20">
           <div className="flex flex-col gap-4">
             <div className="flex gap-2">

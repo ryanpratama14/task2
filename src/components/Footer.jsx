@@ -43,7 +43,7 @@ const menuData2 = [
 
 const Footer = () => {
   return (
-    <footer className="max-sm:py-longer3 max-sm:px-shorter pt-normal bg-black lg:bg-transparent">
+    <footer className="max-md:py-longer3 max-lg:py-normal max-lg:px-shorter pt-normal bg-black lg:bg-transparent">
       <div className="flex justify-between max-sm:gap-6 lg:flex-nowrap flex-wrap">
         <div className="flex gap-6 lg:gap-24 lg:flex-nowrap flex-wrap">
           <div className="flex flex-col gap-4">
